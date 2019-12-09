@@ -1,9 +1,11 @@
 # nomitm
 Development for no man in the middle
 
-I am working on code to solve the problem of man in the middle 
-My development is to change the mac address periodically in a way would be difficult for the human to catch up your mac address. In this way would support the client side 
-For Ubuntu fresh installed 
+I am working on code to solve the problem of man in the middle. 
+My development is to change the mac address periodically in a way would be difficult for the human to catch up your mac address. 
+And using the https to cipher the data.
+In this way would support the client side 
+For Ubuntu fresh installed without internet connection
 1. Use ufw default deny incoming
 2. Use ufw deny http
 3. Use screen or nohup for session
