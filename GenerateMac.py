@@ -38,8 +38,10 @@ def getIpAddress():
 def setMac():
     #here to improve check any connected card or software system
     #sudo to remember
-    #call("ip link set dev eno1 address "+getMac())
-    #getmac /v /fo list
+    #for Ubuntu eno1 is the name of adapter call("ip link set dev eno1 address "+getMac())
+    #for windows getmac /v /fo list
+    
+    
     if(ptf.system()=="Linux"):
         cmd='ip link set dev eno1 address '
         subprocess.call(cmd + getMac(),shell=True)
