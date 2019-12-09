@@ -14,6 +14,7 @@ For Ubuntu fresh installed without internet connection
             python3 GenerateMac.py
             ctrl+ A+ D for deattach to continue your work  
 4. Copy the following code and name it as you want 
+5. Periodically clear browser cache
 
 you can change the thread timing if there were too many attacks to make the timing shorter
 
